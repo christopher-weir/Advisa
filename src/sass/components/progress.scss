@@ -1,0 +1,13 @@
+.progress-background {
+    background-color: #FAFAFA;
+    border-bottom: 1px solid #DCDCDC;
+    height: 20px;
+    overflow: hidden;
+    width: 100%;
+
+    .progress-bar {
+        height: 20px;
+        -webkit-transition: all 0.75s ease-in-out;
+                transition: all 0.75s ease-in-out;
+    }
+}

@@ -1,0 +1,51 @@
+.give-wrap {
+    padding: 0 20px 20px;
+
+    input,
+    button {
+        -webkit-appearance: none;
+           -moz-appearance: none;
+                appearance: none;
+        border-radius: 4px;
+        box-sizing: border-box;
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 60px;
+        width: 100%;
+    }
+
+    input {
+        border: 1px solid #DCDCDC;
+        color: #363721;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    button {
+        background-color: #09B30E;
+        border: 0;
+        border-radius: 4px;
+        color: #FFFFFF;
+        outline: 0;
+        -webkit-transition: background-color 0.5s ease-in-out;
+                transition: background-color 0.5s ease-in-out;
+        width: 100%;
+
+        &:disabled {
+            background-color: #CCCCCC;
+            opacity: 0.8;
+        }
+    }
+
+    @media (min-width: 500px) {
+
+        input {
+            margin-bottom: 0;
+            margin-right: 4%;
+            width: 48%;
+        }
+        button {
+            width: 48%;
+        }
+    }
+}

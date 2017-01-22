@@ -1,0 +1,33 @@
+
+
+.product-wrap {
+    box-sizing: border-box;
+    margin: 0 auto;
+    max-width: 580px;
+    min-width: 300px;
+    padding: 20px;
+    width: 100%;
+
+    .product-info {
+        width: 100%;
+
+        img {
+            height: auto;
+            width: 100%;
+        }
+
+        h2 {
+            color: #807572;
+            font-size: 1.2em;
+            font-style: italic;
+            font-weight: normal;
+            text-align: center;
+        }
+    }
+
+    .product-meta {
+        border: 1px solid #DCDCDC;
+        border-radius: 4px;
+        overflow: hidden;
+    }
+}
